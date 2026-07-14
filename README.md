@@ -1,22 +1,22 @@
-# Libft - A Custom C Library
+# 42 – Libft
 
-Libft is a personal C library that reimplements essential standard functions for string manipulation and memory management. It serves as a foundational toolkit for working with C, making low-level programming more convenient and efficient.
+## Description
 
-## 🔧 What's Inside?
+**Libft** is the first core project of the 42 curriculum. It involves building a custom C library by reimplementing essential standard library functions and creating reusable utility functions for future projects.
 
-This library includes:
+## How it works
 
-- **Standard Library Functions** - Rewritten versions of common C functions like strlen, memcpy, strdup, and more.
-- **Additional Utilities** - Useful functions like ft_substr, ft_strjoin, and ft_split to handle strings and memory more effectively.
+The library:
 
-## ⚡ How It Works
+- Reimplements commonly used C standard library functions
+- Provides additional utilities for string and memory manipulation
+- Compiles all source files into a static library (`libft.a`)
+- Can be linked and reused in other C projects
 
-Libft is compiled into a static library (libft.a), which can be linked to any C project. Once compiled, it can be included just like any standard library, providing a reliable set of tools for handling fundamental programming tasks.
+## Concepts
 
-## 🎯 Why It Matters
-
-Writing these functions from scratch deepens the understanding of how C works under the hood, reinforcing key programming concepts like memory allocation and pointer manipulation.
-
-## 📜 License
-
-This project is part of the 42 school curriculum.
+- Static libraries
+- Memory management
+- String manipulation
+- Makefiles
+- Modular programming
